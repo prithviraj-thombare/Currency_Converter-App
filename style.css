@@ -1,0 +1,83 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.nirmalbang.com/app_themes/images/KCbanners/img_20191213_0413_img_20190827_1049_currency-trade.jpg'); /* Replace 'your-image.jpg' with the path to your background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 35%;
+            height: auto;
+            background: var(--background);
+            backdrop-filter: blur(0.5rem);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 1rem;
+            box-shadow: 0 1.8rem 3.7rem var(--box_shadow);
+        }
+        .container input {
+            margin-bottom: 10px;
+        }
+        @font-face {
+            font-family: Convert; 
+            src: url("C:/Users/Admin/Desktop/Studey Materials/PROJECTS/Currency Converter App/gothice.ttf");
+                  
+        }
+        h2{
+            text-align: center;
+            font-family: "Convert"; /* Replace 'Your Font' with the font you want to use */
+            margin-top: 0;
+            color: rgb(8, 7, 7);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .input-group {
+            position: Middle;
+        }
+        .input-group input[type="number"]{
+            width: 85%;
+            padding: 15px;
+            border-radius: 45px;
+            border: 1px solid #ccc;
+        }
+        .input-group select {
+            width: 100%;
+            padding: 15px;
+            border-radius: 45px;
+            border: 1px solid #ccc;
+        }
+        .input-group i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 10px;
+            color: #717070;
+            pointer-events: none;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 45px;
+            background-color: #4CAF50;
+            color: #981c1c2c;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
