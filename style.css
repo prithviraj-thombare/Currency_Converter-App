@@ -33,7 +33,7 @@
         }
         h2{
             text-align: center;
-            font-family: "Convert"; /* Replace 'Your Font' with the font you want to use */
+            font-family: "Convert";
             margin-top: 0;
             color: rgb(8, 7, 7);
         }
@@ -74,6 +74,11 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
+        }
+          @font-face {
+            font-family: "Convert"; 
+            src: url("gothice.ttf");
+                  
         }
         #result {
             margin-top: 10px;
