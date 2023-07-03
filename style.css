@@ -27,7 +27,7 @@
             margin-bottom: 10px;
         }
         @font-face {
-            font-family: Convert; 
+            font-family: "CustomFont"; 
             src: url("gothice.ttf");
                   
         }
