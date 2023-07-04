@@ -64,20 +64,33 @@
             color: #717070;
             pointer-events: none;
         }
-        button {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            margin-top: 45px;
-            background-color: #4CAF50;
-            color: #981c1c2c;
+         .shadow__btn {
+            padding: 10px 20px;
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
+            font-size: 17px;
+            color: #fff;
+            border-radius: 7px;
+            letter-spacing: 4px;
+            font-weight: 700;
+            text-transform: uppercase;
+            transition: 0.5s;
+            transition-property: box-shadow;
         }
-          @font-face {
+         .shadow__btn {
+            background: rgb(0,140,255);
+            box-shadow: 0 0 25px rgb(0,140,255);
+        }
+         .shadow__btn:hover {
+             box-shadow: 0 0 5px rgb(0,140,255),
+                         0 0 25px rgb(0,140,255),
+                         0 0 50px rgb(0,140,255),
+                         0 0 100px rgb(0,140,255);
+        }
+         @font-face {
             font-family: "Convert"; 
             src: url("gothice.ttf");
                   
         }
-   
+
+          
+ 
