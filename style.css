@@ -65,9 +65,9 @@
             pointer-events: none;
         }
          .shadow__btn {
-            padding: 10px 20px;
+            padding: 10px;
             border: none;
-            font-size: 17px;
+            font-size: 15px;
             color: #fff;
             border-radius: 7px;
             letter-spacing: 4px;
