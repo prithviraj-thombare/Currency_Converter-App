@@ -92,6 +92,12 @@
             src: url("gothice.ttf");
                   
         }
+         #result {
+            font-style: italic;
+            font-weight: bold;
+            color: #fff;
+        }
+
 
           
  
