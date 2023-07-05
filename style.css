@@ -53,14 +53,14 @@
             color: #222;
             box-shadow: Inset 0 1px 25px rgba(0, 0, 0, 0.55);
         }
-         .input:focus {
+         .input-group:focus {
             border: 2px solid #c3c6ce;
         }
-         .input::placeholder {
+         .input-group::placeholder {
             color: #555;
             transition: all 0.3s ease;
         }
-         .input:focus::placeholder {
+         .input-group:focus::placeholder {
              color: #999;
         }
          .input-group select {
