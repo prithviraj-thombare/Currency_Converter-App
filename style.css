@@ -84,12 +84,16 @@
         }
          .shadow__btn {
             padding: 10px;
+            width: 100%;
             border: none;
+            display: block;
+            cursor: pointer;
+	           margin-top: 45px;
             font-size: 15px;
+            font-weight: 700;
             color: #fff;
             border-radius: 7px;
-            letter-spacing: 4px;
-            font-weight: 700;
+            letter-spacing: 4px;            
             transition: 0.5s;
             transition-property: box-shadow;
         }
@@ -110,6 +114,7 @@
         }
          #result {
             margin-top: 10px;
+            font-family: serif;
             font-style: italic;
             font-weight: bold;
             font-size: 45px;
