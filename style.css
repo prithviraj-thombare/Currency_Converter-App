@@ -27,13 +27,13 @@
             margin-bottom: 10px;
         }
         @font-face {
-            font-family: "Convert"; 
+            font-family: "Currency Converter"; 
             src: url("gothice.ttf");
                   
         }
         h2{
             text-align: center;
-            font-family: "Convert";
+            font-family: "Currency Converter";
             margin-top: 0;
             color: #fff;
         }
@@ -50,18 +50,18 @@
             font-size: 18px;
             border-radius: 25px;
             border: 1px solid #ccc;
-            color: #222;
-            box-shadow: Inset 0 1px 25px rgba(0, 0, 0, 0.55);
+            color: #110d0d;
+            box-shadow: Inset 0 1px 25px rgba(180, 177, 177, 0.55);
         }
          .input-group:focus {
-            border: 2px solid #c3c6ce;
+            border: 2px solid #f6efef;
         }
          .input-group::placeholder {
-            color: #555;
+            color: #d1cbcb;
             transition: all 0.3s ease;
         }
          .input-group:focus::placeholder {
-             color: #999;
+             color: #ece2e2;
         }
          .input-group select {
             max-width: 190px;
@@ -69,9 +69,9 @@
             outline: none;
             background: none;
             font-size: 18px;
-            color: #e8e0e0;
+            color: #161212;
 	    padding: 15px 5px 10px 20px;
-	    box-shadow: Inset 0 1px 25px rgba(234, 229, 229, 0.55);
+	    box-shadow: Inset 0 1px 25px rgba(224, 217, 217, 0.55);
             border-radius: 25px;
         }
         .input-group i {
@@ -79,7 +79,7 @@
             top: 50%;
             transform: translateY(-50%);
             right: 10px;
-            color: #717070;
+            color: #fbf7f7;
             pointer-events: none;
         }
          .shadow__btn {
@@ -88,10 +88,9 @@
             border: none;
             display: block;
             cursor: pointer;
-	    margin-top: 45px;
-            font-size: 15px;
+	    font-size: 15px;
             font-weight: 700;
-            color: #fff;
+            color: #ffffffdf;
             border-radius: 7px;
             letter-spacing: 4px;            
             transition: 0.5s;
@@ -107,21 +106,21 @@
                          0 0 50px rgb(0,140,255),
                          0 0 100px rgb(0,140,255);
         }
-         @font-face {
-            font-family: "Convert"; 
-            src: url("gothice.ttf");
-                  
-        }
          #result {
             margin-top: 10px;
             font-family: serif;
             font-style: italic;
             font-weight: bold;
-            font-size: 45px;
+            font-size: 35px;
             color: #fff;
-            
-            
         }
+	 h1 {
+	    font-family: "Convert";
+	    font-weight: bold;
+	    font-style: oblique;
+	    font-size: 25em;
+	
+	 }
 
 
           
