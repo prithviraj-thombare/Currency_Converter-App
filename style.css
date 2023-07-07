@@ -34,6 +34,8 @@ body {
 h2{
     text-align: center;
     font-family: "Currency Converter";
+    font-size: 25em;
+    font-weight: bold;
     margin-top: 0;
     color: #fff;
 }
