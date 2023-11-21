@@ -28,16 +28,15 @@ body {
 }
 @font-face {
     font-family: "Currency Converter"; 
-    src: url("gothice.ttf");
-          
+    src: url("gothice.ttf");      
 }
 h2{
     text-align: center;
     font-family: "Currency Converter";
-    
-    
+    font-size: 34px;
+    font-weight: bold;
     margin-top: 0;
-    color: #fff;
+    color: rgb(245, 247, 248);
 }
 label {
     display: block;
@@ -47,34 +46,38 @@ label {
     position: Middle;
 }
 .input-group input[type="number"]{
-    max-width: 190px;
-    padding: 15px 5px 10px 20px;
-    font-size: 18px;
-    border-radius: 25px;
-    border: 1px solid #ccc;
-    color: #110d0d;
-    box-shadow: Inset 0 1px 25px rgba(180, 177, 177, 0.55);
+    margin: 30px;
+    background: rgb(142, 219, 238);
+    border: none;
+    outline: none;
+    max-width: 390px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 20px rgb(21, 19, 19);
+    color: rgb(19, 16, 16);
 }
  .input-group:focus {
     border: 2px solid #f6efef;
 }
  .input-group::placeholder {
-    color: #d1cbcb;
+    color: #0e0a0a;
     transition: all 0.3s ease;
 }
  .input-group:focus::placeholder {
-     color: #ece2e2;
+     color: #120f0f;
 }
  .input-group select {
-    max-width: 190px;
+    margin: 30px;
+    background: rgb(81, 133, 160);
     border: none;
     outline: none;
-    background: none;
-    font-size: 18px;
-    color: #161212;
-    padding: 15px 5px 10px 20px;
-    box-shadow: Inset 0 1px 25px rgba(224, 217, 217, 0.55);
-    border-radius: 25px;
+    max-width: 390px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 20px rgb(198, 189, 189);
+    color: rgb(13, 10, 10);
 }
 .input-group i {
     position: absolute;
